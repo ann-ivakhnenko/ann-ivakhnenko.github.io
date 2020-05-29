@@ -1,0 +1,414 @@
+.title-city {
+  margin: 34px 0 29px 0;
+  color: white;
+  font-size: 80px;
+  margin-left: 50px;
+}
+
+.city-text {
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  /*  font-weight: 400;*/
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.city-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #ff6633;
+}
+
+.city-block .city-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.city-block .city-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.city-block .city-block-content {
+  height: 100%;
+  width: 100%;
+}
+
+.city-block .next-city-block-content-button {
+  position: absolute;
+  padding: 20px;
+  border: none;
+  outline: none;
+  right: 0;
+  bottom: 0;
+  background-color: none;
+  background: none;
+  color: white;
+}
+
+.river-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #66cc66;
+}
+
+.river-block .river-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.river-block .river-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.river-block .river-block-content {
+  height: 100%;
+  width: 100%;
+}
+
+.river-block .next-river-block-content-button {
+  position: absolute;
+  padding: 20px;
+  border: none;
+  outline: none;
+  right: 0;
+  bottom: 0;
+  background-color: none;
+  background: none;
+  color: white;
+}
+.close-first-block,
+.close-second-block,
+.close-third-block,
+.close-fourth-block,
+.close-maqluba-block {
+  padding: 20px;
+  border: none !important;
+  outline: none !important;
+  background-color: none;
+  background: none;
+  color: white;
+}
+
+.sea-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #009999;
+}
+
+.sea-block .sea-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.sea-block .sea-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.sea-block .sea-block-content {
+  height: 100%;
+  width: 100%;
+}
+
+.sea-block .next-sea-block-content-button {
+  position: absolute;
+  padding: 20px;
+  border: none;
+  right: 0;
+  outline: none;
+  bottom: 0;
+  background-color: none;
+  background: none;
+  color: white;
+}
+
+.mount-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #9966ff;
+}
+
+.mount-block .mount-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.mount-block .mount-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.mount-block .mount-block-content {
+  height: 100%;
+  width: 100%;
+}
+
+.mount-block .next-mount-block-content-button {
+  position: absolute;
+  padding: 20px;
+  border: none;
+  outline: none;
+  right: 0;
+  bottom: 0;
+  background-color: none;
+  background: none;
+  color: white;
+}
+
+/*/////////////////////*/
+
+.maqluba-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #009900;
+}
+
+.maqluba-block .maqluba-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.maqluba-block .maqluba-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.maqluba-block .maqluba-block-content {
+  height: 100%;
+  width: 100%;
+}
+
+.falafel-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #000033;
+}
+
+.falafel-block .maqluba-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.falafel-block .maqluba-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.falafel-block .maqluba-block-content {
+  height: 100%;
+  width: 100%;
+}
+
+.mezze-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  outline: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #cc3300;
+}
+
+.mezze-block .mezze-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.mezze-block .mezze-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.mezze-block .mezze-block-content {
+  height: 100%;
+  width: 100%;
+}
+
+.ice-block {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(-100%);
+  background: #ff9933;
+}
+
+.ice-block .maqluba-left-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.ice-block .maqluba-right-side-block {
+  height: 100%;
+  width: 50%;
+}
+
+.ice-block .maqluba-block-content {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 375px) {
+  .city-text-big {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1131px) {
+  .ice-block,
+  .mezze-block,
+  .falafel-block,
+  .maqluba-block,
+  .mount-block,
+  .sea-block,
+  .river-block,
+  .city-block {
+    flex-direction: column;
+    width: 100%;
+  }
+  .title-city {
+    margin: 10px 0 10px 0;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .city-text {
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .ice-block-content {
+    width: 100%;
+  }
+  .mezze-block .mezze-left-side-block {
+    height: 100%;
+    width: 100%;
+  }
+  .mezze-block .mezze-block-content {
+    width: 100%;
+  }
+
+  .mezze-block .mezze-right-side-block {
+    width: 100%;
+  }
+  .falafel-block .falafel-block-content {
+    width: 100%;
+  }
+
+  .maqluba-block .maqluba-left-side-block {
+    width: 100%;
+  }
+
+  .maqluba-block .maqluba-right-side-block {
+    width: 100%;
+  }
+
+  .maqluba-block .maqluba-block-content {
+    width: 100%;
+  }
+  .mount-block .mount-left-side-block {
+    width: 100%;
+  }
+
+  .mount-block .mount-right-side-block {
+    width: 100%;
+  }
+
+  .mount-block .mount-block-content {
+    width: 100%;
+  }
+
+  .sea-block .sea-left-side-block {
+    width: 100%;
+  }
+
+  .sea-block .sea-right-side-block {
+    width: 100%;
+  }
+
+  .sea-block .sea-block-content {
+    width: 100%;
+  }
+
+  .river-block .river-left-side-block {
+    width: 100%;
+  }
+
+  .river-block .river-right-side-block {
+    width: 100%;
+  }
+
+  .river-block .river-block-content {
+    width: 100%;
+  }
+
+  .city-block .city-left-side-block {
+    width: 100%;
+  }
+
+  .city-block .city-right-side-block {
+    width: 100%;
+  }
+
+  .city-block .city-block-content {
+    width: 100%;
+  }
+}

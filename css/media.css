@@ -1,0 +1,216 @@
+@media (max-width: 1131px) {
+  .about-block h1 {
+    font-size: 2.375rem;
+  }
+
+  .services-block h1 {
+    font-size: 2.375rem;
+  }
+
+  .services-block p {
+    font-size: 20px;
+  }
+  .masthead div {
+    margin: 0;
+    margin-left: 80px;
+    width: 40%;
+    margin-top: 110px;
+  }
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map {
+    width: auto;
+    height: 200px;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-left: 15px;
+  }
+
+  #sort_link p,
+  #sort_link_2 p {
+    font-size: 20px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+  }
+
+  #sort_list button {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    background-color: #009966;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+  }
+  #sort_list_2 button {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    background-color: #009966;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  .icon-circle {
+    margin-top: 6px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+
+  .portfolio-item .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .portfolio-item img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+
+  .portfolio-item:hover .caption {
+    background-color: rgba(29, 128, 159, 0.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+
+@media (max-width: 590px) {
+  .about-block h1 {
+    font-size: 1.5rem;
+  }
+
+  .services-block h1 {
+    font-size: 1.5rem;
+  }
+
+  .masthead div {
+    margin: 0;
+    margin-left: 80px;
+    width: 200px;
+    margin-top: 110px;
+  }
+
+  .masthead .country-btn {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgba(102, 051, 0, 0.3);
+    padding: 10px;
+  }
+
+  .right-side-block {
+    height: 100%;
+    margin-left: 0px;
+    width: 100%;
+    background-color: #009966;
+    padding: 50px;
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map {
+    width: auto;
+    height: 200px;
+    margin-right: auto;
+    padding-left: 15px;
+  }
+
+  .services-block .right-side-block {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .soc a {
+    padding: 10px;
+    color: white;
+  }
+
+  #sort_link p,
+  #sort_link_2 p {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  #sort_list button {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    background-color: #009966;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  #sort_list_2 button {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    background-color: #009966;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  .icon-circle {
+    margin-top: 6px;
+    font-size: 16px;
+  }
+}

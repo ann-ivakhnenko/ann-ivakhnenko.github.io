@@ -1,0 +1,78 @@
+.masthead {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/img0.png);
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.masthead.change-opacity {
+  animation: fade-animation 5s infinite;
+  /* IE 10+, Fx 29+ */
+}
+
+@keyframes fade-animation {
+  0% {
+    opacity: 0.75;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.75;
+  }
+}
+
+.masthead h1 {
+  font-size: 4rem;
+  padding: 0;
+  color: white;
+  line-height: 90px;
+}
+
+.masthead h3 {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.masthead div {
+  margin: 0;
+  margin-left: 80px;
+  width: 410px;
+  margin-top: 110px;
+}
+
+.masthead i {
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.masthead .country-btn {
+  color: white;
+  font-size: 27px;
+  text-decoration: none;
+  border-radius: 5px;
+  background: rgba(102, 051, 0, 0.3);
+  padding: 10px;
+}
